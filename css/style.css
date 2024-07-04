@@ -336,14 +336,14 @@ ul {
     justify-content: space-around;
 }
 
-.main-card-div h2{
-
+.month-best-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.card{
+.card {
     display: flex;
-    background-size: auto;
-    background-position: center;
     width: 15rem;
     height: 10rem;
     margin-top: 2rem;
@@ -352,15 +352,10 @@ ul {
     border: 3px solid;
     border-radius: 10px;
     transition: 0.5s;
-}
-.card img{
-    background-size: cover;
+    background-image: url('../images/landing_page.png');
+    background-repeat: no-repeat;
     background-position: center;
-}
-.month-best-project{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-size: cover;
 }
 
 h2{
